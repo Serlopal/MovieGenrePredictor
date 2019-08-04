@@ -39,8 +39,8 @@ needed for training.
 
 In order to speed up the program's performance, but more importantly speed up the training
 process, you need to have install two extra Python libraries:
-    * cuDNN
-    * CUDA toolkit
+ * cuDNN
+ * CUDA toolkit
 I recommend using Anaconda if you want to do this, as these packages are installed 
 automatically when you install tensorflow-gpu.
 
