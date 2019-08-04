@@ -34,3 +34,12 @@ Just unpack the dataset into a folder named "dataset" in your project folder. Us
 the models in the "models" with the new ones. The previous requirements include all libraries
 needed for training.
 
+
+**Future work**
+
+* Improve model's performance:
+    * Include more than one dataset into the training data
+    * Deal with class imbalance more efficiently, avoiding oversampling a lot.
+    * Deal wth multi-label nature of the problem more efficiently.
+* Deploy program to executable using PyInstaller
+* Improve performance, possibly export models to C++ (Kerassify, Keras2Cpp).
