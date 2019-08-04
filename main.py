@@ -51,12 +51,6 @@ if __name__ == "__main__":
 	plot = args.description
 
 	# ---------------
-	# INPUT CHECKING
-	# ---------------
-	check_valid_title(title)
-	check_valid_plot(plot)
-
-	# ---------------
 	# MODEL LOADING
 	# ---------------
 	model_path = "model/model.h5"
@@ -78,6 +72,12 @@ if __name__ == "__main__":
 	# ---------------
 	min_plot_len = 4  # in number of words
 	max_plot_len = max_seq_length  # in number of words
+
+	# ---------------
+	# INPUT CHECKING
+	# ---------------
+	check_valid_title(title)
+	check_valid_plot(plot)
 
 	# ---------------
 	# INPUT CLEANING
