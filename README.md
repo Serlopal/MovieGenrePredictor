@@ -1,4 +1,14 @@
-**How to run it**
+
+
+# Movie genre predictor
+
+### Introduction
+
+This NLP Python program uses Convolutional Neural Networks to map brief text descriptions
+of films into their most likely genres.
+
+
+### **How to run it**
 
 * Install Python 3.5+ (you can use an Anaconda environments too)
 * create a virtual environment with pip
@@ -25,7 +35,7 @@
     {"title": "Sergio's tale", "description": "Sarah and [...] other?", "genre:": "Romance"}
     ```
     
-**How to reproduce the training**
+### **How to reproduce the training**
 
 Download the [MovieLens](https://www.kaggle.com/rounakbanik/the-movies-dataset/version/7#movies_metadata.csv)
  dataset from here.
@@ -35,7 +45,7 @@ the models in the "models" with the new ones. The previous requirements include 
 needed for training.
 
 
-**A note of GPU usage**
+### **A note of GPU usage**
 
 In order to speed up the program's performance, but more importantly speed up the training
 process, you need to have install two extra Python libraries:
